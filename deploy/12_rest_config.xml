@@ -1,0 +1,3 @@
+<qbean name="rest-server" logger="Q2" realm="rest-server" class="org.pos.server.RestServer">	
+	<attr name="port" type="java.lang.Integer">7878</attr>
+</qbean>

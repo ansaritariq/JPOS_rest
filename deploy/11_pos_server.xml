@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<server class="org.jpos.q2.iso.QServer" logger="Q2"  name="q2-server">
+	<attr name="port" type="java.lang.Integer">1888</attr>
+	<attr name="maxSessions" type="java.lang.Integer">10</attr>	
+    <attr name="minSessions" type="java.lang.Integer">1</attr>
+	<channel class="org.jpos.iso.channel.NACChannel"  logger="Q2" packager="org.jpos.iso.packager.ISO87BPackager"  header="6007790000" />
+</server>
+
+
+
